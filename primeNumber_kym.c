@@ -1,3 +1,5 @@
+// ìˆ«ì ì…ë ¥ë°›ì•„ ì†Œìˆ˜ì¸ì§€ íŒë³„
+
 #include <stdio.h>
 void main(void) {
 	int num;	
@@ -6,10 +8,10 @@ void main(void) {
 	
 	while(1){	
 		check=0 ; 
-		printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+		printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 		scanf("%d",&num );
 			if (num==1 ){
-				printf("¼Ò¼ö\n");
+				printf("ì†Œìˆ˜\n");
 			}
 			else {
 				for( int i=2 ; i<=num ; i++){			
@@ -17,9 +19,9 @@ void main(void) {
 						check++; 	
 					}
 				if (check==1)
-					printf("¼Ò¼ö\n");
+					printf("ì†Œìˆ˜\n");
 				else 
-					printf("¼Ò¼ö¾Æ´Ô\n"); 
+					printf("ì†Œìˆ˜ì•„ë‹˜\n"); 
 				}
 	
 		
